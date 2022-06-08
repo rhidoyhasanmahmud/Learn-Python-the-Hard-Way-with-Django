@@ -16,7 +16,7 @@
 
 🤗 About Me:
 
-🚀 Self:
+> Self:
 
 I am Hasan Mahmud Rhidoy. Working as a "Software Engineer" in "BRAC IT Services" at "Dhaka, Bangladesh".
 
@@ -33,7 +33,7 @@ This is what I would do.
 
 🤗 Introduction On Programming Lanaguea and Python
 
-🚀 What is a Programming Language?
+> What is a Programming Language?
 
 As we know, to communicate with a person, we need a specific language, similarly to communicate with computers,
 programmers also need a language is called Programming language.
@@ -41,7 +41,7 @@ programmers also need a language is called Programming language.
 A programming language is a computer language that is used by programmers (developers) to communicate with computers. It
 is a set of instructions written in any specific language ( C, C++, Java, Python) to perform a specific task.
 
-🚀 Types of programming language
+> Types of programming language
 
 > Low-level programming language
 
@@ -74,7 +74,7 @@ ii. Object-Oriented Programming language [Python, Javas, etc.]
 
 iii. Natural language
 
-🚀 Difference between object-oriented programming and procedural programming?
+> Difference between object-oriented programming and procedural programming?
 
 Think of all programming as managing the relationship between two fundamental concepts:
 state and behavior. State is the data of your program. Behavior is the logic.
@@ -101,7 +101,7 @@ instructions on how to compute output. Imperative programming is like writing a 
 Finally note that these are idealistic or "pure" definitions. In the real world, paradigms merge. You will rarely, if
 ever, see a pure OO application. Features from multiple paradigms will be combined, for better or worse.
 
-🚀 Most commonly used Programming Language [Python]
+> Most commonly used Programming Language [Python]
 
 ⚙ Python is one of the most widely used user-friendly programming languages.
 
@@ -110,7 +110,7 @@ ever, see a pure OO application. Features from multiple paradigms will be combin
 ⚙ It is mostly used in Machine learning, Artificial intelligence, Big Data, GUI based desktop applications, and
 Robotics.
 
-🚀 Advantages
+> Advantages
 
 ⚙ Python is easy to read, easy to understand, and easy to write.
 
@@ -118,17 +118,17 @@ Robotics.
 
 ⚙ Python is platform-independent means you can write code once and run it anywhere.
 
-🚀 Disadvantages
+> Disadvantages
 
 ⚙ Python works with the interpreter. That's why it is slower than other programming languages like C and C++.
 
-🚀 Python 2 vs. Python 3
+> Python 2 vs. Python 3
 
 ⚙ Python 2 uses print as a statement and used as print "something" to print some string on the console. On the other hand, Python 3 uses print as a function and used as print("something") to print something on the console.
 
 ⚙ Python 2 uses the function raw_input() to accept the user's input. Python 3 uses input() function which automatically interpreted the type of input entered by the user.
 
-🚀 Java vs Python Program
+> Java vs Python Program
 
 ⚙ Java Program
 
@@ -147,7 +147,7 @@ public class HelloWorld {
 print("Hello World")
 ```
 
-🚀 Why learn Python?
+> Why learn Python?
 
 ⚙ Easy to use and Learn
 
@@ -159,7 +159,7 @@ print("Hello World")
 
 ⚙ Wide Range of Libraries and Frameworks
 
-🚀 Where is Python used?
+> Where is Python used?
 
 ⚙ Data Science 
 
@@ -181,7 +181,7 @@ print("Hello World")
 
 ⚙ Speech Recognitions
 
-🚀 Python Popular Frameworks and Libraries
+> Python Popular Frameworks and Libraries
 
 ⚙ Web development (Server-side) - Django Flask, Pyramid, CherryPy
 
