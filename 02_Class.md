@@ -1,10 +1,10 @@
 ## 🔧 Class - 02 Topics
 
-| SL  | Topics                  | 
-|-----|-------------------------|
-| 01  | Python print() Function |
-| 02  | Python Variables        |
-| 02  | Python Data Types       |
+| SL  | Topics                                               | 
+|-----|------------------------------------------------------|
+| 01  | Python print() Function                              |
+| 02  | Python Variables                                     |
+| 02  | Python Data Types |
 
 ## 📤 Python print() Function
 
@@ -137,3 +137,141 @@ print("Python")  # Python
 
 type("Python")  # <class 'str'>
 ```
+
+## 📤 Data type
+
+Variables can hold values, and every value has a data-type. Python is a dynamically typed language; hence we do not need
+to define the type of the variable while declaring it. The interpreter implicitly binds the value with its type.
+
+```python
+num = 5  
+```
+
+The variable **num** holds integer value five and we did not define its type. Python interpreter will automatically
+interpret
+variables **num** as an integer type.
+
+Python enables us to check the type of the variable used in the program. Python provides us the **type()** function,
+which
+returns the type of the variable passed.
+
+```python
+num = 10
+string_value = "Hello Python"
+dicimalNum = 10.5
+print(type(num))
+print(type(string_value))
+print(type(dicimalNum))
+
+"""
+<type 'int'>
+<type 'str'>
+<type 'float'>
+"""
+```
+
+> Standard data types
+
+A variable can hold different types of values.
+
+Python provides various standard data types that define the storage method on each of them. The data types defined in
+Python are given below.
+
+1. Numbers [Integer, Complex Number, Float]
+2. Sequence Type [Strings, List, Tuple]
+3. Boolean
+4. Set
+5. Dictionary
+
+> Numbers
+
+Number stores numeric values. The integer, float, and complex values belong to a Python Numbers data-type. Python
+provides the type() function to know the data-type of the variable. Similarly, the isinstance() function is used to
+check an object belongs to a particular class.
+
+```python
+num = 5
+print("The type of num", type(num))
+
+floatNumber = 40.5
+print("The type of floatNumber", type(floatNumber))
+
+complexNumber = 1 + 3j
+print("The type of complexNumber", type(complexNumber))
+print(" complexNumber is a complex number", isinstance(1 + 3j, complex))
+
+"""
+The type of num <class 'int'>
+The type of floatNumber <class 'float'>
+The type of complexNumber <class 'complex'>
+complexNumber is complex number: True
+"""
+```
+
+Python supports three types of numeric data.
+
+1. **Int** - Integer value can be any length such as integers 10, 2, 29, -20, -150 etc. Python has no restriction on the
+   length of an integer. Its value belongs to int
+2. **Float** - Float is used to store floating-point numbers like 1.9, 9.902, 15.2, etc. It is accurate upto 15 decimal
+   points.
+3. **Complex** - A complex number contains an ordered pair, i.e., x + iy where x and y denote the real and imaginary
+   parts, respectively. The complex numbers like 2.14j, 2.0 + 2.3j, etc.
+
+> Sequence Type
+
+1. String
+
+The string can be defined as the sequence of characters represented in the quotation marks. In Python, we can use
+single, double, or triple quotes to define a string.
+
+String handling in Python is a straightforward task since Python provides built-in functions and operators to perform
+operations in the string.
+
+```python
+str = "string using double quotes"
+print(str)
+s = '''''A multiline 
+string'''
+print(s)
+
+"""
+string using double quotes
+A multiline
+string
+"""
+```
+
+2. List [Discuss it later]
+3. Tuple [Discuss it later]
+4. Dictionary [Discuss it later]
+5. Boolean
+
+Boolean type provides two built-in values, True and False. These values are used to determine the given statement true
+or false. It denotes by the class bool.
+
+```python
+print(type(True))
+print(type(False))
+print(false)
+"""
+<class 'bool'>
+<class 'bool'>
+NameError: name 'false' is not defined
+"""
+```
+
+6. Set [Discuss it later]
+
+> Assignment List
+
+1. https://www.beecrowd.com.br/judge/en/problems/view/1000
+2. https://www.beecrowd.com.br/judge/en/problems/view/1001
+
+> Reference:
+
+1. https://www.w3schools.com/python/
+2. https://docs.python.org/3/tutorial/
+3. https://www.tutorialspoint.com/python/index.htm
+4. https://www.pythontutorial.net/
+5. https://www.javatpoint.com/
+6. https://www.programiz.com/python-programming

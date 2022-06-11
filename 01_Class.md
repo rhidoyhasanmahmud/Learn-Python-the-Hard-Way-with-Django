@@ -31,9 +31,9 @@ Broker like RabbitMQ, Cache Management like Redis, etc.
 
 This is what I would do.
 
-🤗 Introduction On Programming Lanaguea and Python
+> **Introduction On Programming Lanaguea and Python_**
 
-> What is a Programming Language?
+**What is a Programming Language?**
 
 As we know, to communicate with a person, we need a specific language, similarly to communicate with computers,
 programmers also need a language is called Programming language.
@@ -43,13 +43,13 @@ is a set of instructions written in any specific language ( C, C++, Java, Python
 
 > Types of programming language
 
-> Low-level programming language
+**Low-level programming language**
 
 Low-level language is machine-dependent (0s and 1s) programming language. The processor runs low- level programs
 directly without the need of a compiler or interpreter, so the programs written in low-level language can be run very
 fast.
 
-Low-level language is further divided into two parts -
+**Low-level language is further divided into two parts -**
 
 1. Machine Language: Machine language is a type of low-level programming language. The advantage of machine language is
    that it helps the programmer to execute the programs faster than the high-level programming language.
@@ -58,7 +58,7 @@ Low-level language is further divided into two parts -
    assembler to convert the assembly language to machine language. The advantage of assembly language is that it
    requires less memory and less execution time to execute a program.
 
-> High-level programming language
+**High-level programming language**
 
 High-level programming language (HLL) is designed for developing user-friendly software programs and websites. This
 programming language requires a compiler or interpreter to translate the program into machine language (execute the
@@ -66,15 +66,15 @@ program). The main advantage of a high-level language is that it is easy to read
 programming language includes Python, Java, JavaScript, PHP, C#, C++, Objective C, Cobol, Perl, Pascal, LISP, FORTRAN,
 and Swift programming language.
 
-A high-level language is further divided into three parts -
+**A high-level language is further divided into three parts -**
 
-i. Procedural Oriented programming language [C, Fortran, VB, and Pascal.]
+1. Procedural Oriented programming language [C, Fortran, VB, and Pascal.]
 
-ii. Object-Oriented Programming language [Python, Javas, etc.]
+2. Object-Oriented Programming language [Python, Javas, etc.]
 
-iii. Natural language
+3. Natural language
 
-> Difference between object-oriented programming and procedural programming?
+**Difference between object-oriented programming and procedural programming?**
 
 Think of all programming as managing the relationship between two fundamental concepts:
 state and behavior. State is the data of your program. Behavior is the logic.
@@ -101,34 +101,34 @@ instructions on how to compute output. Imperative programming is like writing a 
 Finally note that these are idealistic or "pure" definitions. In the real world, paradigms merge. You will rarely, if
 ever, see a pure OO application. Features from multiple paradigms will be combined, for better or worse.
 
-> Most commonly used Programming Language [Python]
+**Most commonly used Programming Language [Python]**
 
-⚙ Python is one of the most widely used user-friendly programming languages.
+1. Python is one of the most widely used user-friendly programming languages.
 
-⚙ It is an open-source and easy to learn programming language developed in the 1990s.
+2. It is an open-source and easy to learn programming language developed in the 1990s.
 
-⚙ It is mostly used in Machine learning, Artificial intelligence, Big Data, GUI based desktop applications, and
+3. It is mostly used in Machine learning, Artificial intelligence, Big Data, GUI based desktop applications, and
 Robotics.
 
-> Advantages
+ **Advantages**
 
-⚙ Python is easy to read, easy to understand, and easy to write.
+1. Python is easy to read, easy to understand, and easy to write.
 
-⚙ Python executes code line-by-line, so it is easy for the programmer to find the error that occurred in the code.
+2. Python executes code line-by-line, so it is easy for the programmer to find the error that occurred in the code.
 
-⚙ Python is platform-independent means you can write code once and run it anywhere.
+3. Python is platform-independent means you can write code once and run it anywhere.
 
-> Disadvantages
+**Disadvantages**
 
-⚙ Python works with the interpreter. That's why it is slower than other programming languages like C and C++.
+1. Python works with the interpreter. That's why it is slower than other programming languages like C and C++.
 
-> Python 2 vs. Python 3
+**Python 2 vs. Python 3**
 
-⚙ Python 2 uses print as a statement and used as print "something" to print some string on the console. On the other hand, Python 3 uses print as a function and used as print("something") to print something on the console.
+1. Python 2 uses print as a statement and used as print "something" to print some string on the console. On the other hand, Python 3 uses print as a function and used as print("something") to print something on the console.
 
-⚙ Python 2 uses the function raw_input() to accept the user's input. Python 3 uses input() function which automatically interpreted the type of input entered by the user.
+2. Python 2 uses the function raw_input() to accept the user's input. Python 3 uses input() function which automatically interpreted the type of input entered by the user.
 
-> Java vs Python Program
+**Java vs Python Program**
 
 ⚙ Java Program
 
@@ -147,49 +147,46 @@ public class HelloWorld {
 print("Hello World")
 ```
 
-> Why learn Python?
+**Why learn Python?**
 
-⚙ Easy to use and Learn
+1. Easy to use and Learn
 
-⚙ Object-Oriented Language
+2. Object-Oriented Language
 
-⚙ Open Source Language
+3. Open Source Language
 
-⚙ Learn Standard Library
+4. Learn Standard Library
 
-⚙ Wide Range of Libraries and Frameworks
+5. Wide Range of Libraries and Frameworks
 
-> Where is Python used?
+**`Where is Python used?**
+`
+1. Data Science 
 
-⚙ Data Science 
+2. Date Mining
 
-⚙ Date Mining
+3. Desktop Applications
 
-⚙ Desktop Applications
+4. Mobile Applications
 
-⚙ Mobile Applications
+5. Software Development
 
-⚙ Software Development
+6. Artificial Intelligence
 
-⚙ Artificial Intelligence
+7. Web Applications
 
-⚙ Web Applications
+8. Machine Learning
 
-⚙ Machine Learning
+9. Computer Vision or Image Processing Applications.
 
-⚙ Computer Vision or Image Processing Applications.
+10. Speech Recognitions
 
-⚙ Speech Recognitions
+**Python Popular Frameworks and Libraries**
+`
+1. Web development (Server-side) - Django Flask, Pyramid, CherryPy
 
-> Python Popular Frameworks and Libraries
+2. GUIs based applications - Tk, PyGTK, PyQt, PyJs, etc.
 
-⚙ Web development (Server-side) - Django Flask, Pyramid, CherryPy
+3. Machine Learning - TensorFlow, PyTorch, Scikit-learn, Matplotlib, Scipy, etc.
 
-⚙ GUIs based applications - Tk, PyGTK, PyQt, PyJs, etc.
-
-⚙ Machine Learning - TensorFlow, PyTorch, Scikit-learn, Matplotlib, Scipy, etc.
-
-⚙ Mathematics - Numpy, Pandas, etc.
-
-
-
+4. Mathematics - Numpy, Pandas, etc.
