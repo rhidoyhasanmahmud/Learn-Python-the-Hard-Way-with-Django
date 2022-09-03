@@ -1,4 +1,4 @@
-# Declaring Variable and Assigning Values
+    # Declaring Variable and Assigning Values
 
 ```python
 num1 = 100
