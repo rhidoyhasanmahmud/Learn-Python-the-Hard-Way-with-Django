@@ -1,46 +1,44 @@
-language = "Java"
-language2 = "Python"
-print(language)
+country = "Bangladesh"
 
-print("My first language is : ", language)  # My first language is :  Java
+country2 = "USA"
 
-print("My second language is: %s" % language)  # My second language is: Java
+# Process - 1
+print(country)  # Bangladesh
+print(country2)  # USA
 
-num = 10.555555
-print(num)
-print(type(num))
-print("%.2f" % num)  # 10.56
+# Process - 2
+print("Country is : ", country)  # Country is :  Bangladesh
+print("Country2 is : ", country2)  # Country2 is :  USA
 
-print("My fav. language :", language, ' and ', language2)  # My fav. language : Java  and  Python
+print("Country : ", country, country2)  # Country :  Bangladesh USA
+print("Country : ", country, " and ", country2)  # Country :  Bangladesh  and  USA
 
-print("My fav. language: %s and %s" % (language, language2))
+print("Country: " + country + country2)  # Country: BangladeshUSA
 
-# ------------------------------------------
+# Process - 3
 
-num1 = 5
-num2 = 3                
-print(f'{num1} times {num2} is {num1 / num2:.2f}')  #2f means print to 2 decimal precision
-#5 times 3 is 1.67
+print("Country one is : {} and Country two is : {}".format(country, country2))
+# Country one is : Bangladesh and Country two is : USA
 
+print("Country one is : {1} and Country two is : {0}".format(country, country2))
+# Country one is : USA and Country two is : Bangladesh
 
-#explicit call format() method
-number1 = 'One'
-number2 = 'Two'
-number3 = 'Three'
+print("Country one is : {c1} and Country two is : {c2}".format(c1=country, c2=country2))
+# Country one is : Bangladesh and Country two is : USA
 
-# default(implicit) order
-default_order = "{}, {} and {}".format(number1,number2,number3)
-print(default_order)
-# One, Two and Three
+# Process - 4
 
+print(f'{country} and {country2}')  # Bangladesh and USA
 
-# order using positional argument
-positional_order = "{1}, {0} and {2}".format(number1,number2,number3)
-print(positional_order)
-# Two, One and Three
+# Process - 5
+print("Country are  %s and %s" % (country, country2))  # Country are  Bangladesh and USA
 
+"""
+10.101010101010
 
-# order using keyword argument
-keyword_order = "{i}, {j} and {k}".format(j=number1,k=number2,i=number3)
-print(keyword_order)
-# Three, One and Two
+10.10
+"""
+
+num = 10.101010101010
+print("%f" % num) # 10.101010
+print("%.3f" % num) # 10.101
