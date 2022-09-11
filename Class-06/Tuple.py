@@ -15,6 +15,9 @@
 Tuple1 = ()
 print(Tuple1)  # ()
 
+Tuple1 = tuple()
+print(Tuple1) # ()
+
 # Creating a Tuple with the use of string
 Tuple1 = ('Python', 'Java')
 print(Tuple1)  # ('Python', 'Java')

@@ -23,20 +23,23 @@
 """
 
 # Creating a empty List
-List = [] # Blank List
-print(List) # []
+List = []  # Blank List
+print(List)  # []
+
+List = list()
+print(List)  # []
 
 # Creating a List of numbers
 List = [10, 20, 14]
-print(List) # [10, 20, 14]
+print(List)  # [10, 20, 14]
 
 # Creating a List with the use of Numbers (Having duplicate values)
 List = [1, 2, 4, 4, 3, 3, 3, 6, 5]
-print(List) # [1, 2, 4, 4, 3, 3, 3, 6, 5]
+print(List)  # [1, 2, 4, 4, 3, 3, 3, 6, 5]
 
 # Creating a List with mixed type of values (Having numbers and strings)
 List = [1, 2, 'Python', 4, 'Java', 6.5, 'C++']
-print(List) # [1, 2, 'Python', 4, 'Java', 6.5, 'C++']
+print(List)  # [1, 2, 'Python', 4, 'Java', 6.5, 'C++']
 
 ## Accessing elements from the List
 
@@ -50,22 +53,22 @@ print(List) # [1, 2, 'Python', 4, 'Java', 6.5, 'C++']
 # Creating a List with the use of multiple values
 List = ["Python", "Java", "C++"]
 
-print(List[0]) # Python
-print(List[2]) # C++
+print(List[0])  # Python
+print(List[2])  # C++
 
 # Creating a Multi-Dimensional List (By Nesting a list inside a List)
 List = [['Java', 'Python'], ['PHP']]
-print(List[0][1]) # Python
-print(List[1][0]) # PHP
+print(List[0][1])  # Python
+print(List[1][0])  # PHP
 
 # Negative indexing
 List = [1, 2, 'Python', 4, 'Java', 6, 'PHP']
 
 # print the last element of list
-print(List[-1]) # PHP
+print(List[-1])  # PHP
 
 # print the third last element of list
-print(List[-3]) # Java
+print(List[-3])  # Java
 
 ## Getting the size of Python list
 
@@ -75,11 +78,11 @@ print(List[-3]) # Java
 
 # Creating a List
 List1 = []
-print(len(List1)) # 0
+print(len(List1))  # 0
 
 # Creating a List of numbers
 List2 = [10, 20, 14]
-print(len(List2)) # 3
+print(len(List2))  # 3
 
 ## Taking Input of a Python List
 
@@ -87,11 +90,11 @@ print(len(List2)) # 3
 # Split and store it to a list and print the string list
 
 # input the list as string
-string = input("Enter elements (Space-Separated): ") # Enter elements: Python Java PHP
+string = input("Enter elements (Space-Separated): ")  # Enter elements: Python Java PHP
 
 # split the strings and store it to a list
 lst = string.split()
-print('The list is:', lst)   # The list is: ['Python', 'Java', 'PHP']
+print('The list is:', lst)  # The list is: ['Python', 'Java', 'PHP']
 
 ## Adding Elements to a Python List
 
@@ -108,7 +111,7 @@ List.append(1)
 List.append(2)
 List.append(4)
 
-print(List) # [1, 2, 4]
+print(List)  # [1, 2, 4]
 
 """
 > Using insert() methodUsing insert() method
@@ -116,12 +119,12 @@ print(List) # [1, 2, 4]
 - Unlike append() which takes only one argument, the insert() method requires two arguments(position, value).
 """
 # Creating a List
-List = [1,2,3,4]
-print(List) # [1, 2, 3, 4]
+List = [1, 2, 3, 4]
+print(List)  # [1, 2, 3, 4]
 
 List.insert(3, 12)
 List.insert(0, 'Python')
-print(List) # ['Python', 1, 2, 3, 12, 4]
+print(List)  # ['Python', 1, 2, 3, 12, 4]
 
 """
 > Using extend() method
@@ -129,10 +132,10 @@ print(List) # ['Python', 1, 2, 3, 12, 4]
 - append() and extend() methods can only add elements at the end.
 """
 List = [1, 2, 3, 4]
-print(List) # [1, 2, 3, 4]
+print(List)  # [1, 2, 3, 4]
 
 List.extend([8, 'Python', 'Java'])
-print(List) # [1, 2, 3, 4, 8, 'Python', 'Java']
+print(List)  # [1, 2, 3, 4, 8, 'Python', 'Java']
 
 ## Reversing a List
 
@@ -142,7 +145,7 @@ print(List) # [1, 2, 3, 4, 8, 'Python', 'Java']
 
 mylist = [1, 2, 3, 4, 5, 'Java', 'Python']
 mylist.reverse()
-print(mylist) # ['Python', 'Java', 5, 4, 3, 2, 1]
+print(mylist)  # ['Python', 'Java', 5, 4, 3, 2, 1]
 
 ## Removing Elements from the List
 
@@ -154,12 +157,12 @@ print(mylist) # ['Python', 'Java', 5, 4, 3, 2, 1]
 - Remove method in List will only remove the first occurrence of the searched element.
 """
 
-List = [1, 2, 3, 4, 5, 6,7, 8, 9, 10, 11, 12]
-print(List) # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+List = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+print(List)  # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 
 List.remove(5)
 List.remove(6)
-print(List) # [1, 2, 3, 4, 7, 8, 9, 10, 11, 12]
+print(List)  # [1, 2, 3, 4, 7, 8, 9, 10, 11, 12]
 
 """
 > Using pop() method
@@ -170,10 +173,10 @@ print(List) # [1, 2, 3, 4, 7, 8, 9, 10, 11, 12]
 
 List = [1, 2, 3, 4, 5]
 List.pop()
-print(List) # [1, 2, 3, 4]
+print(List)  # [1, 2, 3, 4]
 
 List.pop(2)
-print(List) # [1, 2, 4]
+print(List)  # [1, 2, 4]
 
 ## Slicing of a List
 
@@ -185,26 +188,26 @@ print(List) # [1, 2, 4]
 - To print elements from a specific Index till the end use: [Index:]
 - To print the whole list in reverse order, use: [::-1]
 """
-List = ['A', 'B', 'C', 'D', 'E', 'F','G', 'H', 'I', 'J', 'K', 'L', 'M']
+List = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M']
 print(List)
 # ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M']
 
 Sliced_List = List[3:8]
-print(Sliced_List) # ['D', 'E', 'F', 'G', 'H']
+print(Sliced_List)  # ['D', 'E', 'F', 'G', 'H']
 Sliced_List = List[5:]
-print(Sliced_List) # ['F', 'G', 'H', 'I', 'J', 'K', 'L', 'M']
+print(Sliced_List)  # ['F', 'G', 'H', 'I', 'J', 'K', 'L', 'M']
 Sliced_List = List[:]
-print(Sliced_List) # ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M']
+print(Sliced_List)  # ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M']
 
 # Negative index List slicing
 
-List = ['A', 'B', 'C', 'D', 'E', 'F','G', 'H', 'I', 'J', 'K', 'L', 'M']
+List = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M']
 Sliced_List = List[:-6]
-print(Sliced_List) # ['A', 'B', 'C', 'D', 'E', 'F', 'G']
+print(Sliced_List)  # ['A', 'B', 'C', 'D', 'E', 'F', 'G']
 Sliced_List = List[-6:-1]
-print(Sliced_List) # ['H', 'I', 'J', 'K', 'L']
+print(Sliced_List)  # ['H', 'I', 'J', 'K', 'L']
 Sliced_List = List[::-1]
-print(Sliced_List) # ['M', 'L', 'K', 'J', 'I', 'H', 'G', 'F', 'E', 'D', 'C', 'B', 'A']
+print(Sliced_List)  # ['M', 'L', 'K', 'J', 'I', 'H', 'G', 'F', 'E', 'D', 'C', 'B', 'A']
 
 """
 >> List Methods
@@ -227,5 +230,3 @@ all()	    Returns true if all element is true or if the list is empty
 any()	    return true if any element of the list is true. if the list is empty, return false
 len()	    Returns length of the list or size of the list
 """
-
-
