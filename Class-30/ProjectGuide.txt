@@ -18,18 +18,24 @@
 
 9. Create a ModelForm [forms.py]
 
-10. Create View Functions
+ModelForm is a regular Form which can automatically generate certain fields.
 
-11. Provide Routing
+10. Create View Functions [views.py]
 
-12. Create Migrations
+11. Provide Routing [urls.py]
 
-13. settings.py setup
+12. Organize Templates
 
-13.1. python manage.py makemigrations
+13. [Create Migrations] python manage.py makemigrations
 
-13.2. python manage.py migrate
+Create migrations for the created model employee
 
-14.  python manage.py runserver
+14. settings.py setup
+
+After migrations, app (employee) in INSTALLED_APPS of settings.py file.
+
+15. [Run the command to migrate the migrations.] python manage.py migrate
+
+16.  [To run server use the following command.] python manage.py runserver
 
 
