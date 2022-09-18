@@ -101,3 +101,20 @@ Class Contents:
     - [8] Form Validation
 30. Class - 30
     - Employee Management Project
+
+## Reference
+
+[1] https://www.geeksforgeeks.org/
+[2] https://www.javatpoint.com/
+[3] https://www.w3schools.com/
+[4] https://docs.python.org/3/tutorial/
+[5] tutorialspoint.com/
+[6] https://www.pythontutorial.net/
+[7] https://www.programiz.com/python-programming
+[8] https://www.learnpython.org/
+[9] https://www.guru99.com/
+[10] https://intellipaat.com/blog/tutorial/
+[11] https://www.w3resource.com/
+[12] https://www.simplilearn.com/
+[13] https://www.digitalocean.com/community/tutorials/
+[14] https://docs.djangoproject.com/en/4.1/
