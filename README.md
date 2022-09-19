@@ -31,7 +31,7 @@ Class Contents:
    - Python Sets
 10. Class - 09 [✅]
     - Python Dictionary
-11. Class - 10 and 11
+11. Class - 10 and 11 [✅]
     - Loop with Range
     - While Loop
     - Break
