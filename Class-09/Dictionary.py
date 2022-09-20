@@ -134,3 +134,12 @@ print(len(squares))
 
 print(sorted(squares))
 # Output: [0, 1, 3, 5, 7, 9]
+
+keys = [1,2,3]
+values = ['Value 1', 'Value 2', 'Value 3']
+
+# zip function in dictionary
+dict = dict(zip(keys, values))
+
+# printing result
+print(dict)  # {1: ‘Value 1’, 2: ‘Value 2’, 3: ‘Value 3’}
