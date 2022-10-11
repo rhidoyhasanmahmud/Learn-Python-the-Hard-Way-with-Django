@@ -15,12 +15,12 @@ we can do the function calls to reuse code contained in it over and over again.
 """
 
 
-# A simple Python function
+# >>>> A simple Python function <<<<
 def fun():
     print("Welcome to Python World")
 
 
-## Calling a  Python Function
+# >>>> Calling a  Python Function <<<<
 
 # A simple Python function
 def printValue():
@@ -31,7 +31,7 @@ def printValue():
 printValue()  # Welcome to Python World
 
 
-## Defining and calling a function with parameters
+## >>> Defining and calling a function with parameters <<<<
 
 # Example - 1
 
@@ -66,11 +66,9 @@ def is_prime(n):
 print(is_prime(78), is_prime(79))  # False True
 
 
-## Arguments of a Python Function
+## >>>> Arguments of a Python Function <<<<
 
-# A simple Python function to check
-# whether x is even or odd
-
+# Ex. A simple Python function to check whether x is even or odd
 
 def evenOdd(x):
     if x % 2 == 0:
@@ -84,7 +82,7 @@ evenOdd(2)
 evenOdd(3)
 
 
-## Types of Arguments
+## >>>> Types of Arguments <<<<
 
 ### 01. Default arguments
 
