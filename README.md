@@ -37,10 +37,10 @@ Class Contents:
     - Break
     - Continue
     - Pass
-12. Class - 12
+12. Class - 12 [✅]
     - Function
     - \*args && \*\*kwargs
-13. Class - 13
+13. Class - 13 [✅]
     - Lambda, map, filter
     - Comprehension [List, Dictionary, and Set]
 14. Class - 14
