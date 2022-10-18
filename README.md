@@ -43,12 +43,12 @@ Class Contents:
 13. Class - 13 [✅]
     - Lambda, map, filter
     - Comprehension [List, Dictionary, and Set]
-14. Class - 14
+14. Class - 14 [✅]
     - Python Scope
     - Python Datetime/Date
     - Python Math
     - Python JSON
-15. Class - 15
+15. Class - 15 [✅] 
     - Modules
     - Packages
 16. Class - 16
