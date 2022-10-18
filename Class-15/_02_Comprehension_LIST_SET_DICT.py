@@ -22,6 +22,9 @@ new_list = [var + 3 for var in given_list]
 
 print(new_list)  # [3, 4, 5, 6, 7]
 
+lst_comprehension_2 = [num for num in lst if num % 2 == 1]
+print(lst_comprehension_2)
+
 """
 >> Dictionary Comprehensions
 """
@@ -32,6 +35,8 @@ new_dict = {var:var + 3 for var in given_list }
 
 print(new_dict) # {0: 3, 1: 4, 2: 5, 3: 6, 4: 7}
 
+
+
 """
 >> Set Comprehension
 """
@@ -41,4 +46,12 @@ print(given_set) # {0, 1, 2, 3, 4}
 new_set = {var+3 for var in given_set}
 
 print(new_set) # {3, 4, 5, 6, 7}
+
+# Tuple Comprehension
+
+my_tuple = tuple(num for num in range(5))
+my_tuple_2 = *(num for num in range(5)),
+
+print(my_tuple)
+print(my_tuple_2)
 
