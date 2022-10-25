@@ -51,8 +51,10 @@ Class Contents:
 15. Class - 15 [✅] 
     - Modules
     - Packages
-16. Class - 16
-    - Iterator and Generator
+16. Class - 16 [✅]
+    - Iterator 
+    - yield 
+    - and Generator
 17. Class - 17
     - Regular Expression
     - Magic Method
@@ -84,7 +86,7 @@ Class Contents:
     - Virtual Environment
     - Numpy
     - Pandas
-26. Class - 26
+26. Class - 26 [✅]
     - Git and GitHub
 27. Class - 27
     - Fundamental of Database management syste
