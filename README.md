@@ -61,7 +61,7 @@ Class Contents:
 18. Class - 18 [✅]
     - File
     - Error Handling
-19. Class - 19
+19. Class - 19 [✅]
     - Recursion
 20. Class - 20
     - Basic OOP
