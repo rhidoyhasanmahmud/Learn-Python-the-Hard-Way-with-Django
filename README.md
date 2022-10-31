@@ -70,10 +70,10 @@ Class Contents:
     - Constructor
     - Destructor
     - self
-21. Class - 21
+21. Class - 21 [✅] 
     - Inheritance
     - Encapsulation
-22. Class - 22
+22. Class - 22 [✅] 
     - Polymorphism
     - Abstraction
 23. Class - 23
