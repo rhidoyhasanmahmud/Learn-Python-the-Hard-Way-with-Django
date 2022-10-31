@@ -63,7 +63,7 @@ Class Contents:
     - Error Handling
 19. Class - 19 [✅]
     - Recursion
-20. Class - 20
+20. Class - 20 [✅]
     - Basic OOP
     - Class
     - Object
