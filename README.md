@@ -55,10 +55,10 @@ Class Contents:
     - Iterator 
     - yield 
     - and Generator
-17. Class - 17
+17. Class - 17 [✅]
     - Regular Expression
     - Magic Method
-18. Class - 18
+18. Class - 18 [✅]
     - File
     - Error Handling
 19. Class - 19
