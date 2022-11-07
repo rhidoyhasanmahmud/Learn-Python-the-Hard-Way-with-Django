@@ -48,12 +48,12 @@ Class Contents:
     - Python Datetime/Date
     - Python Math
     - Python JSON
-15. Class - 15 [✅] 
+15. Class - 15 [✅]
     - Modules
     - Packages
 16. Class - 16 [✅]
-    - Iterator 
-    - yield 
+    - Iterator
+    - yield
     - and Generator
 17. Class - 17 [✅]
     - Regular Expression
@@ -70,18 +70,18 @@ Class Contents:
     - Constructor
     - Destructor
     - self
-21. Class - 21 [✅] 
+21. Class - 21 [✅]
     - Inheritance
     - Encapsulation
-22. Class - 22 [✅] 
+22. Class - 22 [✅]
     - Polymorphism
     - Abstraction
-23. Class - 23
+23. [Pause] Class - 23
     - Decorator
-24. Class - 24
+24. [Pause] Class - 24
     - Unit testing
     - Clean code and Convention
-25. Class - 25
+25. Class - 25 [✅]
     - PIP
     - Virtual Environment
     - Numpy
