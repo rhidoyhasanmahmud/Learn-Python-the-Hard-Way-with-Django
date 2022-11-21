@@ -88,11 +88,11 @@ Class Contents:
     - Pandas
 26. Class - 26 [✅]
     - Git and GitHub
-27. Class - 27
+27. Class - 27 [✅]
     - Fundamental of Database management syste
-28. Class - 28
+28. Class - 28 [✅]
     - SQL Query
-29. Class - 29
+29. Class - 29 [✅]
     - [1] Django Project MVT Structure
     - [2] Django Model
     - [3] Django View
@@ -101,7 +101,7 @@ Class Contents:
     - [6] Django Model Forms
     - [7] Django Forms
     - [8] Form Validation
-30. Class - 30
+30. Class - 30 [✅]
     - Employee Management Project
 
 ## Reference
