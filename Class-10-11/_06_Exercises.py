@@ -77,15 +77,3 @@ The pattern like :
 ***
 ****
 """
-
-# Write a program in Python to make such a pattern like a pyramid with an asterisk.
-
-"""
-The pattern like :
-4
-
-   * 
-  * * 
- * * * 
-* * * *
-"""
