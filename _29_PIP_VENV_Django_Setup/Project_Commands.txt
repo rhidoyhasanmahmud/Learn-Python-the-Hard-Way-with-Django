@@ -1,0 +1,17 @@
+1. [Install venv to your host Python by running this command] pip install virtualenv
+
+2. [Create Virtual Env]  python -m venv project_dependency
+
+3. Activate Virtual Env
+
+4. Pip install django
+
+5. [Create a Project] django-admin startproject crudapp
+
+5.1. [Shift Project Directory] cd crudapp
+
+6. [Create an App] python manage.py startapp employee
+
+7. See the project Project Structure
+
+8. python manage runserver
