@@ -1,7 +1,0 @@
-https://www.w3schools.com/html/
-
-
-https://www.w3schools.com/css/
-
-
-https://www.w3schools.com/jsref/event_onclick.asp
