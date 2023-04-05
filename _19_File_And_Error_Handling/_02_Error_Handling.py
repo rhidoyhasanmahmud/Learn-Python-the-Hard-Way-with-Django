@@ -13,3 +13,7 @@ else:
 finally:
   # Finally block is not mandatory.
   # This will ALWAYS happen after the above blocks.
+  
+## 
+
+raise Exception("Shouldn't be Odd Number")
