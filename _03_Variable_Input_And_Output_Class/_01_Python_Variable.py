@@ -77,8 +77,7 @@ print(value)
 
 # [08] Variable Type
 
-![Type of Datatype](https://github.com/CodeMechanix/Python-with-Django-Web-Development/tree/New-Branch-2023/_03_Variable_Input_And_Output_Class/images/_type_of_data_type.PNG
-)
+# https://github.com/CodeMechanix/Python-with-Django-Web-Development/tree/New-Branch-2023/_03_Variable_Input_And_Output_Class/images/_type_of_data_type.PNG
 
 """
 > Data types are the classification or categorization of data items.
