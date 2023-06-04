@@ -77,6 +77,8 @@ print(value)
 
 # [08] Variable Type
 
+![Type of Datatype](https://github.com/CodeMechanix/Python-with-Django-Web-Development)
+
 """
 > Data types are the classification or categorization of data items.
 > Since everything is an object in Python programming, 
