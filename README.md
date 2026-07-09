@@ -25,6 +25,7 @@
 | 17 | Python List: Where One Value Is Never Enough (Part 1) | https://rhidoyhasanmahmud.substack.com/p/python-list-where-one-value-is-never |
 | 18 | Python List: Where One Value Is Never Enough (Part 2) | https://rhidoyhasanmahmud.substack.com/p/python-list-where-one-value-is-never-49f |
 | 19 | Python List: Where One Value Is Never Enough (Part 3) | https://rhidoyhasanmahmud.substack.com/p/python-list-where-one-value-is-never-fe6 |
+| 20 | Python List: Where One Value Is Never Enough (Part 4) | https://rhidoyhasanmahmud.substack.com/p/python-list-where-one-value-is-never-2f9 |
 
 ## Contact
 
