@@ -27,6 +27,11 @@
 | 19 | Python List: Where One Value Is Never Enough (Part 3) | https://rhidoyhasanmahmud.substack.com/p/python-list-where-one-value-is-never-fe6 |
 | 20 | Python List: Where One Value Is Never Enough (Part 4) | https://rhidoyhasanmahmud.substack.com/p/python-list-where-one-value-is-never-2f9 |
 |21|Python List: Where One Value Is Never Enough (Part 5) |https://rhidoyhasanmahmud.substack.com/p/python-list-where-one-value-is-never-345|
+|22|Python Tuple: When Your Data Should Never Change (Part 1)|https://rhidoyhasanmahmud.substack.com/p/python-tuple-when-your-data-should|
+|23|Python Tuple: When Your Data Should Never Change (Part 2)|https://rhidoyhasanmahmud.substack.com/p/python-tuple-when-your-data-should-80f|
+|24|Python Tuple: When Your Data Should Never Change (Part 3)|https://rhidoyhasanmahmud.substack.com/p/python-tuple-when-your-data-should-8b5|
+|25|Python Tuple: When Your Data Should Never Change (Part 4)|https://rhidoyhasanmahmud.substack.com/p/python-tuple-when-your-data-should-101|
+|26|Python Tuple: When Your Data Should Never Change (Part 5)|https://rhidoyhasanmahmud.substack.com/p/python-tuple-when-your-data-should-124|
 
 ## Contact
 
