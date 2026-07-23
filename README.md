@@ -44,6 +44,11 @@ A complete beginner-to-advanced Python learning repository designed alongside a 
 | 28 | Python Set: Managing Unique Data (Part 2) | https://rhidoyhasanmahmud.substack.com/p/python-set-managing-unique-data-part |
 | 29 | Python Set: Combining and Comparing Data (Part 3) | https://rhidoyhasanmahmud.substack.com/p/python-set-combining-and-comparing |
 | 30 | Python Set: Finding, Comparing & Checking Data (Part 4) | https://rhidoyhasanmahmud.substack.com/p/python-set-finding-comparing-and |
+| 31 | Python Dictionary: Storing Data as Key–Value Pairs (Part 1) | https://rhidoyhasanmahmud.substack.com/p/python-dictionary-storing-data-as |
+| 32 | Python Dictionary: Accessing Data with Keys (Part 2) | https://rhidoyhasanmahmud.substack.com/p/python-dictionary-accessing-data |
+| 33 | Python Dictionary: Adding, Updating & Removing Data (Part 3) | https://rhidoyhasanmahmud.substack.com/p/python-dictionary-adding-updating |
+| 34 | Python Dictionary: Useful Methods Every Beginner Should Know (Part 4) | https://rhidoyhasanmahmud.substack.com/p/python-dictionary-useful-methods |
+| 35 | Python Dictionary: Storing Different Types of Data (Part 5) | https://rhidoyhasanmahmud.substack.com/p/python-dictionary-storing-different |
 
 ---
 
