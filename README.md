@@ -6,7 +6,7 @@ A complete beginner-to-advanced Python learning repository designed alongside a 
 >
 > Pull Requests are always welcome.
 >
-> Follow me on LinkedIn: **[@HasanMahmud](https://www.linkedin.com/in/codemechanix/)** for technical updates.
+> Follow me on LinkedIn: **[@HasanMahmud](https://www.linkedin.com/in/rhidoyhasanmahmud/)** for technical updates.
 
 ---
 
