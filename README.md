@@ -1,8 +1,16 @@
-## Python Programming live course with Django Web Development project
+# 🐍 Python Programming Live Course with Django Web Development Project
 
-> Click :star:if you like the project. Pull Request are highly appreciated. Follow me [@HasanMahmud](https://www.linkedin.com/in/codemechanix/) for technical updates.
+A complete beginner-to-advanced Python learning repository designed alongside a live course. This repository contains notes, source code, practice materials, and blog references that help students build a strong Python foundation before moving into Django Web Development.
 
-## 🚀 Blog List
+> ⭐ If you find this project helpful, please consider starring the repository.
+>
+> Pull Requests are always welcome.
+>
+> Follow me on LinkedIn: **[@HasanMahmud](https://www.linkedin.com/in/rhidoyhasanmahmud/)** for technical updates.
+
+---
+
+# 🚀 Python Learning Blog Series
 
 | No. | Topic | Link |
 |-----|--------|------|
@@ -26,13 +34,41 @@
 | 18 | Python List: Where One Value Is Never Enough (Part 2) | https://rhidoyhasanmahmud.substack.com/p/python-list-where-one-value-is-never-49f |
 | 19 | Python List: Where One Value Is Never Enough (Part 3) | https://rhidoyhasanmahmud.substack.com/p/python-list-where-one-value-is-never-fe6 |
 | 20 | Python List: Where One Value Is Never Enough (Part 4) | https://rhidoyhasanmahmud.substack.com/p/python-list-where-one-value-is-never-2f9 |
-|21|Python List: Where One Value Is Never Enough (Part 5) |https://rhidoyhasanmahmud.substack.com/p/python-list-where-one-value-is-never-345|
-|22|Python Tuple: When Your Data Should Never Change (Part 1)|https://rhidoyhasanmahmud.substack.com/p/python-tuple-when-your-data-should|
-|23|Python Tuple: When Your Data Should Never Change (Part 2)|https://rhidoyhasanmahmud.substack.com/p/python-tuple-when-your-data-should-80f|
-|24|Python Tuple: When Your Data Should Never Change (Part 3)|https://rhidoyhasanmahmud.substack.com/p/python-tuple-when-your-data-should-8b5|
-|25|Python Tuple: When Your Data Should Never Change (Part 4)|https://rhidoyhasanmahmud.substack.com/p/python-tuple-when-your-data-should-101|
-|26|Python Tuple: When Your Data Should Never Change (Part 5)|https://rhidoyhasanmahmud.substack.com/p/python-tuple-when-your-data-should-124|
+| 21 | Python List: Where One Value Is Never Enough (Part 5) | https://rhidoyhasanmahmud.substack.com/p/python-list-where-one-value-is-never-345 |
+| 22 | Python Tuple: When Your Data Should Never Change (Part 1) | https://rhidoyhasanmahmud.substack.com/p/python-tuple-when-your-data-should |
+| 23 | Python Tuple: When Your Data Should Never Change (Part 2) | https://rhidoyhasanmahmud.substack.com/p/python-tuple-when-your-data-should-80f |
+| 24 | Python Tuple: When Your Data Should Never Change (Part 3) | https://rhidoyhasanmahmud.substack.com/p/python-tuple-when-your-data-should-8b5 |
+| 25 | Python Tuple: When Your Data Should Never Change (Part 4) | https://rhidoyhasanmahmud.substack.com/p/python-tuple-when-your-data-should-101 |
+| 26 | Python Tuple: When Your Data Should Never Change (Part 5) | https://rhidoyhasanmahmud.substack.com/p/python-tuple-when-your-data-should-124 |
+| 27 | Python Set: The Collection That Hates Duplicates (Part 1) | https://rhidoyhasanmahmud.substack.com/p/python-set-the-collection-that-hates |
+| 28 | Python Set: Managing Unique Data (Part 2) | https://rhidoyhasanmahmud.substack.com/p/python-set-managing-unique-data-part |
+| 29 | Python Set: Combining and Comparing Data (Part 3) | https://rhidoyhasanmahmud.substack.com/p/python-set-combining-and-comparing |
+| 30 | Python Set: Finding, Comparing & Checking Data (Part 4) | https://rhidoyhasanmahmud.substack.com/p/python-set-finding-comparing-and |
+| 31 | Python Dictionary: Storing Data as Key–Value Pairs (Part 1) | https://rhidoyhasanmahmud.substack.com/p/python-dictionary-storing-data-as |
+| 32 | Python Dictionary: Accessing Data with Keys (Part 2) | https://rhidoyhasanmahmud.substack.com/p/python-dictionary-accessing-data |
+| 33 | Python Dictionary: Adding, Updating & Removing Data (Part 3) | https://rhidoyhasanmahmud.substack.com/p/python-dictionary-adding-updating |
+| 34 | Python Dictionary: Useful Methods Every Beginner Should Know (Part 4) | https://rhidoyhasanmahmud.substack.com/p/python-dictionary-useful-methods |
+| 35 | Python Dictionary: Storing Different Types of Data (Part 5) | https://rhidoyhasanmahmud.substack.com/p/python-dictionary-storing-different |
 
-## Contact
+---
 
-To contact:: hasan.mahmud8177@gmail.com
+# 🤝 Contributing
+
+Contributions are welcome!
+
+If you'd like to improve this repository:
+
+- Fork the repository
+- Create a new branch
+- Make your changes
+- Submit a Pull Request
+
+---
+
+# 📬 Contact
+
+**Hasan Mahmud**
+
+📧 Email: **hasan.mahmud8177@gmail.com**
+
+💼 LinkedIn: https://www.linkedin.com/in/rhidoyhasanmahmud/
