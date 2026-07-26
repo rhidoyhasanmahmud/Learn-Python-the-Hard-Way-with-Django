@@ -207,7 +207,6 @@ Then:
 Print a clean final summary with appropriate labels:
 
 ```text
-===== STUDENT ACADEMIC RECORD =====
 Student Name       : Nadia Rahman
 Roll Number        : 1201
 Class              : Ten
@@ -215,70 +214,8 @@ City               : Dhaka
 Registration Status: Active
 Subject Marks      : {'Mathematics': 95, ...}
 Total Profile Fields: ...
-===================================
 ```
 
 The values must be read from the dictionaries. Do not manually type the final values inside the `print()` statements.
 
 ---
-
-## Rules
-
-- Use meaningful variable names.
-- Use only the concepts covered in the dictionary lessons.
-- Do not hard-code the final report values.
-- Do not use a list as a dictionary key.
-- Keep the code properly formatted and add short comments for each task.
-- The program must run from beginning to end without an unhandled error.
-- Submit one Python file named:
-
-```text
-student_academic_record.py
-```
-
-## Expected Concepts Checklist
-
-Your solution must demonstrate:
-
-- Dictionary literal syntax
-- `dict()` constructor
-- String and numeric values
-- Nested dictionary
-- Duplicate-key behaviour
-- Reading with `[]`
-- Safe reading with `get()`
-- Adding and updating fields
-- `update()`
-- `setdefault()`
-- `keys()`, `values()`, and `items()`
-- `copy()`
-- `dict.fromkeys()`
-- `len()` and `sorted()`
-- `zip()` with `dict()`
-- `pop()`, `popitem()`, `clear()`, and `del`
-
-## Marking Rubric
-
-| Assessment Area | Marks |
-|---|---:|
-| Correct dictionary creation and nested structure | 15 |
-| Reading, adding, and updating data | 15 |
-| Safe access using `get()` and `setdefault()` | 10 |
-| Dictionary inspection methods | 10 |
-| Backup and copy operation | 10 |
-| Marks creation using `fromkeys()` and `zip()` | 15 |
-| Safe removal operations | 10 |
-| Final formatted student report | 10 |
-| Code readability, comments, and error-free execution | 5 |
-| **Total** | **100** |
-
-## Optional Challenge
-
-Without using a loop, calculate:
-
-- Total marks
-- Average marks
-- Highest mark
-- Lowest mark
-
-Use the values from `subject_marks` and Python's built-in functions.
