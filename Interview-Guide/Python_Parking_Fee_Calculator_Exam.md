@@ -92,30 +92,30 @@ After rejecting the vehicle, continue with the next vehicle.
 
 Calculate the parking fee using the following rules:
 
-  Parking Time                            Fee
-  ---------------- --------------------------
-  Exactly 1 hour                         Free
-  Up to 2 hours                          RM 5
-  Next 3 hours       RM 3 per additional hour
-  After 5 hours      RM 2 per additional hour
+| Parking Time | Fee |
+|---|---|
+| Exactly 1 hour | Free |
+| Up to 2 hours | RM 5 |
+| Next 3 hours | RM 3 per additional hour |
+| After 5 hours | RM 2 per additional hour |
 
 ### Examples
 
-#### Example 1 --- 1 Hour
+#### Example 1 — Parking for 1 Hour
 
 ``` text
 Parking Hours: 1
 Parking Fee: RM 0.00
 ```
 
-#### Example 2 --- 2 Hours
+#### Example 2 — Parking for 2 Hour
 
 ``` text
 Parking Hours: 2
 Parking Fee: RM 5.00
 ```
 
-#### Example 3 --- 4 Hours
+#### Example 3 — Parking for 4 Hour
 
 ``` text
 First 2 hours = RM 5
@@ -124,7 +124,7 @@ Next 2 hours  = 2 × RM 3
 Parking Fee = RM 11
 ```
 
-#### Example 4 --- 8 Hours
+#### Example 4 — Parking for 8 Hour
 
 ``` text
 First 2 hours = RM 5
@@ -324,38 +324,11 @@ Parking Hours: 20
 
 ------------------------------------------------------------------------
 
-## Allowed Python Topics
-
-Use the Python topics learned in class:
-
--   Variables
--   Basic data types
--   Operators
--   `input()` and `print()`
--   `if`, `elif`, `else`
--   Lists
--   `for` loop
--   `while` loop
--   Nested loops
--   `break`
--   `continue`
-
-## Do Not Use
-
--   Functions
--   Classes or objects
--   Dictionaries
--   Sets
--   File handling
--   External libraries
--   List comprehensions
-
-------------------------------------------------------------------------
-
 ## Important Notes
 
--   Your program must work for different inputs, not only the sample
-    input.
--   The output format does not need to look exactly like the sample.
--   All required calculations and information must be correct.
--   Keep your code simple and readable.
+- Your program must work for different inputs, not only the sample input.
+- The output format does not need to look exactly like the sample.
+- All required calculations and information must be correct.
+- Keep your code simple and readable.
+- **Do not use ChatGPT, GitHub Copilot, Gemini, Claude, or any other AI assistant during the exam.**
+- The solution must be written by you using only the Python concepts covered in class.
