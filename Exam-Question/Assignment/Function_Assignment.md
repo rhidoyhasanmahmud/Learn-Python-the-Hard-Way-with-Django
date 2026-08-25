@@ -51,7 +51,7 @@ The function should display the student's basic information.
 ### Example
 
 ```text
-Student Name: Rahim
+Student Name: Hasan
 Student ID: ST101
 ```
 
@@ -204,7 +204,7 @@ The function may receive information such as:
 
 ```python
 print_student_details(
-    name="Rahim",
+    name="Hasan",
     student_id="ST101",
     grade="A",
     status="PASS"
@@ -216,7 +216,7 @@ Use a **loop** to display all key-value pairs.
 ### Example Output
 
 ```text
-name = Rahim
+name = Hasan
 student_id = ST101
 grade = A
 status = PASS
@@ -235,7 +235,7 @@ Use a **loop** for this part.
 ```text
 Add a student? (yes/no): yes
 
-Student Name: Rahim
+Student Name: Hasan
 Student ID: ST101
 
 How many subjects? 3
@@ -251,7 +251,7 @@ After collecting the information, display:
 ----------------------------
 Student Result
 ----------------------------
-Student Name: Rahim
+Student Name: Hasan
 Student ID: ST101
 Total Marks: 210
 Average: 70.00
