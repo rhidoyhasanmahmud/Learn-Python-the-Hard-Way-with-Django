@@ -68,8 +68,12 @@ A structured collection of articles covering Python from the fundamentals to mor
 | 50 | 🚧 Coming Soon                                                        | —                                                                                                   |
 | 51 | Python Lambda Functions: Small Functions, Big Ideas                   | [Read Article](https://rhidoyhasanmahmud.substack.com/p/python-lambda-functions-small-functions)    |
 | 52 | Python Exception Handling: Writing Programs That Handle Errors        | [Read Article](https://rhidoyhasanmahmud.substack.com/p/python-exception-handling-writing)          |
+| 53 | Python Iterators: Understanding Iteration                             | [Read Article](https://rhidoyhasanmahmud.substack.com/p/python-iterators-understanding-iter)        |
+| 54 | Python Generators: Creating Iterators Efficiently                     | [Read Article](https://rhidoyhasanmahmud.substack.com/p/python-generators-creating-iterators)       |
+| 55 | Python Modules: Organizing and Reusing Code                           | [Read Article](https://rhidoyhasanmahmud.substack.com/p/python-modules-organizing-and-reusing)      |
 
 ---
+
 
 
 # 🤝 Contributing
