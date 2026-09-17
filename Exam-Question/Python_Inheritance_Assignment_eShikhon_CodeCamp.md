@@ -3,9 +3,6 @@
 ## eShikhon FutureTech Challenge: Smart Campus Robot Fleet
 
 **Topic:** Inheritance and Types of Inheritance in Python  
-**Difficulty:** Beginner to Intermediate  
-**Suggested time:** ২–৩ ঘণ্টা  
-**Total marks:** ৩০
 
 ---
 
@@ -133,86 +130,10 @@ Emergency response শুরু হলে robot প্রথমে নিজে�
 - কোন relationship কোন inheritance type তৈরি করছে
 - Multiple inheritance-এর ক্ষেত্রে Python কোন order-এ method খুঁজবে
 
----
-
-# Mandatory Technical Requirements
-
-আপনার solution-এ অবশ্যই থাকতে হবে:
-
-1. কমপক্ষে **৫টি meaningful class**
-2. Constructor বা initializer: `__init__()`
-3. Common attributes-এর logical reuse
-4. `super()`-এর meaningful ব্যবহার
-5. কমপক্ষে **৩টি method overriding**
-6. একটি polymorphism demonstration
-7. Method Resolution Order বা MRO display
-8. অন্তত একবার করে নিচের inheritance types-এর demonstration:
-   - Single Inheritance
-   - Multilevel Inheritance
-   - Hierarchical Inheritance
-   - Multiple Inheritance
-   - Hybrid Inheritance
-9. সব inheritance type কোথায় হয়েছে, তা code comment-এ চিহ্নিত করা
-10. অন্তত **৫টি robot object** তৈরি করে system test করা
-
----
-
-# Required System Demonstration
-
-Program run করলে অন্তত নিচের ঘটনাগুলো demonstrate করতে হবে:
-
-## Test 1: Common Robot Operations
-
-- একটি robot-এর initial status দেখান
-- robot-টিকে নতুন location-এ move করান
-- battery charge করুন
-- updated status দেখান
-
-## Test 2: Successful Delivery
-
-- capacity-এর মধ্যে একটি package assign করুন
-- delivery শুরু করুন
-- destination ও remaining battery দেখান
-
-## Test 3: Rejected Delivery
-
-নিচের যেকোনো একটি কারণে delivery reject করে meaningful message দেখান:
-
-- package অতিরিক্ত ভারী
-- battery `20%`-এর কম
-
-## Test 4: Security Patrol
-
-- একটি security zone assign করুন
-- patrol এবং scan operation চালান
-- incident পাওয়া গেলে alert দেখান
-
-## Test 5: Express Delivery
-
-- একটি urgent package assign করুন
-- fastest route বা priority information দেখান
-- express-specific delivery behavior demonstrate করুন
-
-## Test 6: Emergency Response
-
-- emergency code ও response location দিন
-- emergency kit delivery করুন
-- একই robot দিয়ে security scan চালান
-- একটি final emergency response report দেখান
-
-## Test 7: Polymorphism
-
-বিভিন্ন ধরনের robot object একটি collection-এ রাখুন। Loop ব্যবহার করে সবার জন্য একই status বা introduction method call করুন। Object-এর type অনুযায়ী output ভিন্ন হতে হবে।
-
-## Test 8: MRO
-
-একাধিক parent থেকে capability পাওয়া robot class-এর MRO print করুন। Output-এর order একটি code comment-এ ব্যাখ্যা করুন।
 
 ---
 
 # Design Freedom
-
-আপনি স্বাধীনভাবে:
 
 - class এবং method-এর meaningful নাম নির্বাচন করতে পারবেন
 - প্রয়োজন অনুযায়ী extra attributes যোগ করতে পারবেন
@@ -223,19 +144,6 @@ Program run করলে অন্তত নিচের ঘটনাগুল�
 
 তবে design থেকে স্পষ্ট হতে হবে যে inheritance শুধু code কমানোর জন্য নয়; logical **IS-A relationship** অনুযায়ী ব্যবহার করা হয়েছে।
 
----
-
-# Restrictions
-
-- কোনো starter code দেওয়া হবে না
-- একই common attributes অকারণে বিভিন্ন class-এ copy-paste করা যাবে না
-- Final submission-এ অসম্পূর্ণ `pass` বা `TODO` রাখা যাবে না
-- Global variable-এর ওপর system design নির্ভর করতে পারবে না
-- External library ব্যবহার করা যাবে না
-- Class name হবে `PascalCase`
-- Variable, attribute ও method name হবে `snake_case`
-- Program error ছাড়া run করতে হবে
-- Output readable ও meaningful হতে হবে
 
 ---
 
@@ -258,90 +166,4 @@ Filename:
 ```text
 inheritance_design.md
 ```
-
-Design explanation-এ লিখবেন:
-
-- আপনার তৈরি class-গুলোর নাম ও দায়িত্ব
-- কোন class কোন class থেকে inherit করেছে
-- পাঁচ ধরনের inheritance কোথায় demonstrate হয়েছে
-- কোথায় method overriding করেছেন
-- কোথায় `super()` ব্যবহার করেছেন এবং কেন
-- Multiple inheritance-এর MRO কী হয়েছে
-- কোনো design challenge থাকলে কীভাবে সমাধান করেছেন
-
-Hand-drawn class hierarchy-এর পরিষ্কার ছবি দিলেও গ্রহণযোগ্য।
-
----
-
-# Conceptual Questions
-
-`inheritance_design.md` file-এ নিচের প্রশ্নগুলোর সংক্ষিপ্ত উত্তর দিন:
-
-1. আপনার design-এ সবচেয়ে suitable common parent কোনটি এবং কেন?
-2. Delivery ও security behavior-এর মধ্যে কোনগুলো common এবং কোনগুলো আলাদা?
-3. আপনার solution-এ Single Inheritance কোথায় হয়েছে?
-4. Multilevel এবং Hierarchical Inheritance কোথায় হয়েছে?
-5. কোন robot Multiple Inheritance ব্যবহার করছে এবং কেন?
-6. পুরো design-এ Hybrid Inheritance কীভাবে তৈরি হয়েছে?
-7. কোন methods override করেছেন? Overriding প্রয়োজন হয়েছিল কেন?
-8. Multiple inheritance class-এর MRO কী এবং method selection-এ এর প্রভাব কী?
-9. কোথাও inheritance-এর পরিবর্তে composition ব্যবহার করা ভালো হতো কি? আপনার মতামত দিন।
-10. একটি নতুন `CleaningRobot` যোগ করতে হলে আপনার design কীভাবে extend করবেন?
-
----
-
-# Evaluation Rubric — ৩০ Marks
-
-| Assessment area | Marks |
-|---|---:|
-| Scenario analysis ও appropriate class identification | ৪ |
-| Common parent ও overall class design | ৪ |
-| Single, Multilevel ও Hierarchical Inheritance | ৪ |
-| Multiple ও Hybrid Inheritance | ৪ |
-| `super()`, initialization ও attribute reuse | ৩ |
-| Method overriding ও polymorphism | ৩ |
-| Business rules ও validation | ৩ |
-| Object creation ও complete system demonstration | ২ |
-| MRO ও conceptual explanation | ২ |
-| Naming, readability ও code organization | ১ |
-| **Total** | **৩০** |
-
----
-
-# Bonus Challenge — সর্বোচ্চ ৫ Marks
-
-যেকোনো দুইটি implement করুন:
-
-1. প্রতিটি robot operation-এর history একটি list-এ রাখুন
-2. Class attribute ব্যবহার করে total registered robot count দেখান
-3. `__str__()` ব্যবহার করে readable robot information দেখান
-4. Low-battery robot-কে automatic charging station-এ পাঠান
-5. একটি `FleetManager` তৈরি করুন, যেটি সব robot-এর summary দেখাবে
-6. Invalid battery, weight বা location-এর জন্য exception handling যোগ করুন
-
----
-
-# Submission Checklist
-
-- [ ] Scenario পড়ে নিজস্ব class design করেছি
-- [ ] অন্তত ৫টি meaningful class আছে
-- [ ] পাঁচ ধরনের inheritance demonstrate করেছি
-- [ ] প্রতিটি inheritance type code comment-এ identify করেছি
-- [ ] Common data অকারণে duplicate করিনি
-- [ ] `super()` ব্যবহার করেছি
-- [ ] অন্তত ৩টি method override করেছি
-- [ ] Polymorphism demonstrate করেছি
-- [ ] MRO print ও explain করেছি
-- [ ] অন্তত ৫টি object দিয়ে test করেছি
-- [ ] সব required scenario run করেছি
-- [ ] Business rules ও battery validation কাজ করছে
-- [ ] Python naming convention অনুসরণ করেছি
-- [ ] Program error ছাড়া run করে
-- [ ] `inheritance_design.md` সম্পূর্ণ করেছি
-
----
-
-## Final Note
-
-এই assignment-এ শুধু program-এর output মূল্যায়ন করা হবে না। Scenario থেকে সঠিক class, responsibility এবং relationship বের করতে পারা solution-এর গুরুত্বপূর্ণ অংশ। একই scenario-এর একাধিক valid design হতে পারে—আপনার design choice যুক্তিসংগতভাবে ব্যাখ্যা করতে হবে।
 
