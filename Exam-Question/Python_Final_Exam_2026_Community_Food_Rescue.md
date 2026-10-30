@@ -16,7 +16,7 @@ A food bank registers families, receives food packs, and distributes packs to fa
 6. Use all four Python data structures meaningfully: **list, set, tuple, dict**. For example: list for history, set for unique IDs, tuple for a distribution record, dict for family lookup.
 7. Handle invalid menu choices and nonnumeric quantity input without crashing. Keep displaying the menu until Exit is selected.
 
-No Django, database, website, or external packages required.
+No Django, database, website, or external packages required for the standard exam. **Optional:** You may implement the same requirements using Python and Django for **up to 10 bonus marks**. The Django version must work and demonstrate the required features; simply creating a Django project does not qualify. The standard exam remains **50 marks**, with a maximum of **60 marks including bonus**.
 
 ## Console Menu
 
@@ -111,6 +111,10 @@ Your output wording can be different, but the stock and distribution totals must
 | Report and correct output | 5 |
 | GitHub submission and README | 5 |
 | **Total** | **50** |
+
+## Optional Bonus — Django (10 Marks)
+
+If you implement the Food Bank system using **Python + Django** instead of only a console application, you can earn **up to 10 additional marks**. The application must demonstrate the same core features (family registration, add/distribute food, stock validation, and report). Include clear instructions in your README on how to run it. **Django is optional; students using console Python can still earn the full 50/50 marks.**
 
 ## Submission
 
