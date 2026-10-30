@@ -114,6 +114,6 @@ Your output wording can be different, but the stock and distribution totals must
 
 ## Submission
 
-Upload **`main.py`** and a short **`README.md`** (student name, how to run, brief class/data structure explanation) to your own GitHub repository. Submit the **repository URL** through the instructor's submission channel.
+Upload **`main.py`** and a short **`README.md`** (student name, how to run, brief class/data structure explanation) to your own GitHub repository. **[Submit your GitHub repository URL using this Google Form](https://forms.gle/QH2bKw32ZVbb413k6)**. Make sure the repository is public and accessible.
 
 **Rules:** Work individually. Do not hardcode sample output; your application must work with different inputs. Be prepared to explain your code.
