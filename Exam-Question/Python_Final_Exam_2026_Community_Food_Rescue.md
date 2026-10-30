@@ -1,6 +1,8 @@
 # Python Final Exam — Community Food Bank
 
-**Total: 50 Marks | Duration: 3 Hours | Individual Assignment | Python Console Application**
+**Total: 50 Marks | Individual Assignment | Python Console Application**
+
+**Submission Window:** 30 October 2026, 06:00 PM – 12:00 AM (Bangladesh Time; closes 31 October 2026 at 12:00 AM)
 
 ## Problem
 
