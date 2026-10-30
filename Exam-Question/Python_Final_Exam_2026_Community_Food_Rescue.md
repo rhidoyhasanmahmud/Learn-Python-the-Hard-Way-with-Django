@@ -30,29 +30,62 @@ No Django, database, website, or external packages required.
 Enter choice:
 ```
 
-## Sample Test — Enter These Inputs in Order
+## Sample Test — Try It in Your Console
 
-Run `python main.py` (or `python3 main.py`).
+Run `python main.py` (or `python3 main.py`). The menu appears after each action.
 
-| Step | Choose | Input to enter | Expected result |
-|---|---|---|---|
-| 1 | 1 | F01, Rahim, 4 | Family registered |
-| 2 | 1 | F02, Karim, 3 | Family registered |
-| 3 | 2 | 10 | Stock = 10 |
-| 4 | 3 | F01, 3 | Successful; stock = 7 |
-| 5 | 3 | F02, 8 | Rejected; stock stays 7 |
-| 6 | 3 | F02, 5 | Successful; stock = 2 |
-| 7 | 4 | — | View report |
-| 8 | 5 | — | Exit |
+**Step 1 — Register two families (choose `1` twice)**
 
-**Expected report after Step 7:**
+```text
+Enter choice: 1
+Family ID: F01
+Family Name: Hasan
+Number of Members: 4
+✓ Family registered!
+
+Enter choice: 1
+Family ID: F02
+Family Name: Mahmud
+Number of Members: 3
+✓ Family registered!
+```
+
+**Step 2 — Add food (choose `2`)**
+
+```text
+Enter choice: 2
+Packs to add: 10
+Current stock: 10
+```
+
+**Step 3 — Distribute food (choose `3` for each request)**
+
+```text
+Enter choice: 3
+Family ID: F01
+Packs requested: 3
+Success! Remaining stock: 7
+
+Enter choice: 3
+Family ID: F02
+Packs requested: 8
+Not enough food! Remaining stock: 7
+
+Enter choice: 3
+Family ID: F02
+Packs requested: 5
+Success! Remaining stock: 2
+```
+
+**Step 4 — View report (choose `4`)**
 
 ```text
 ===== FOOD BANK REPORT =====
 Available Packs: 2
+
 Registered Families:
-F01 - Rahim - 4 members
-F02 - Karim - 3 members
+F01 - Hasan - 4 members
+F02 - Mahmud - 3 members
 
 Distribution History:
 F01 received 3 packs
@@ -61,9 +94,11 @@ F02 received 5 packs
 Total Distributed: 8
 ```
 
-Your program does not need identical text formatting; the **numbers and behavior must match**.
+**Step 5 — Exit (choose `5`)**
 
-**Also test:** Duplicate family ID, zero members, unknown family ID, zero/negative packs, nonnumeric quantity, and invalid menu choice. Show clear error messages.
+Your output wording can be different, but the stock and distribution totals must match.
+
+**Quick checks:** Try a duplicate family ID, zero members, unknown family, zero/negative packs, a nonnumeric quantity, and an invalid menu choice. Your program should show an error without crashing.
 
 ## Marking — 50 Marks
 
