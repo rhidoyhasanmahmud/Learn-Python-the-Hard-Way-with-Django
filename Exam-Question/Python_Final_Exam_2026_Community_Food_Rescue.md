@@ -1,6 +1,6 @@
 # Python Final Exam — Community Food Bank
 
-**Total: 50 Marks | Individual Assignment | Python Console Application**
+**Total: 50 Marks | Duration: 3 Hours | Individual Assignment | Python Console Application**
 
 ## Problem
 
