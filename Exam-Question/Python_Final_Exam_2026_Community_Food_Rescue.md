@@ -1,175 +1,290 @@
-# Python Final Examination — Community Food Rescue & Smart Distribution System
+# Python Final Exam (50 Marks)
+## Community Food Bank — A Simple OOP Project
 
-**Course:** Python Programming Bootcamp (eShikhon)  
-**Exam date:** 30 October 2026  
-**Total marks:** 50  
-**Problem type:** Individual, practical, real-life problem solving  
-**Required:** Python 3, OOP, list, set, tuple, dictionary, conditional logic, loops, functions, Git
+**Course:** Python Programming Bootcamp  
+**Exam Date:** 30 October 2026  
+**Total Marks:** 50  
+**Difficulty:** Beginner friendly  
+**Language:** Python 3 (console application)
 
-> **Important:** This is a problem specification, not a programming tutorial. You must design your own classes, methods, and allocation algorithm. No starter solution is provided.
+> **Your challenge:** Build a small Python program to help a community food bank keep track of families and distribute food packs. There is no need to build a website, use a database, or learn Django for this exam.
 
-## The Story
+## 1. Real-Life Story
 
-A community organization collects surplus food packs from local shops and distributes them to registered families. Every evening, the volunteers receive requests from families, but there may not be enough food for everyone. Some packs expire earlier than others, and families have different urgency levels.
+A community food bank starts the day with some food packs. Families can register and request food. The volunteers want to avoid giving more packs than they have, and they need a record of how many packs each family received.
 
-Your task is to build a **console-based Food Rescue Management System** that allocates available food fairly and predictably, while minimizing waste.
+**Example:** There are 10 food packs in stock. Rahim's family receives 3 packs, so 7 remain. Karim's family then requests 8 packs, but only 7 remain. The system must say there is not enough stock and **must not give any packs for that request**.
 
-**You are not building a website, database, or Django project.** A working Python console application is enough.
+You will build a menu-driven program where a volunteer can enter information from the keyboard.
 
-## Part A — Requirements
+## 2. What You Must Build — Step by Step
 
-### 1. Model the system with OOP
+### Task 1 — Create Classes (10 marks)
 
-Design at least **three meaningful classes** to represent the problem. You decide the class names, attributes, methods, and responsibilities.
+Create at least these **two classes**:
 
-Your design must demonstrate:
-- Creating objects and calling instance methods.
-- Constructors (`__init__`).
-- Encapsulation: keep state changes controlled through methods.
-- Clear separation between data objects and distribution logic.
+- **`Family`** — stores a family ID, family name, and number of members.
+- **`FoodBank`** — manages available food packs, registered families, and distribution records.
 
-Do not put the entire solution inside one giant function.
+Use `__init__` constructors and meaningful methods. Example method names (suggestions only): `register_family()`, `add_food()`, `distribute_food()`, `show_report()`.
 
-### 2. Represent the data using all four collections
+You can choose your own variable and method names. **You must use OOP**, not only global variables and functions.
 
-Use each collection for a real purpose, not just to satisfy a checklist:
+### Task 2 — Register Families (10 marks)
 
-| Structure | Required purpose |
+The volunteer enters:
+- Family ID (example: `F01`)
+- Family name (example: `Rahim`)
+- Number of family members (example: `4`)
+
+Your program must:
+1. Save the family information.
+2. Prevent registering the **same family ID twice**.
+3. Reject a family size of `0` or less.
+4. Show a clear success or error message.
+
+### Task 3 — Add and Distribute Food (15 marks)
+
+1. The food bank starts with **0 packs**.
+2. Volunteers can add food packs to stock.
+3. Volunteers can distribute a requested number of packs to a **registered family**.
+4. If there are not enough packs, **reject the entire request** and leave stock unchanged.
+5. Reject requests of `0` or negative packs.
+6. Reject requests from unregistered families.
+7. After a successful distribution, reduce stock and save the transaction.
+
+**No priority, expiry date, sorting algorithm, or partial distribution is required.** Process each request when the volunteer enters it.
+
+### Task 4 — Use Python Data Structures (5 marks)
+
+Use **all four** somewhere meaningful:
+
+| Data structure | Simple example of usage |
 | --- | --- |
-| `list` | Store food batches, requests, or distribution records |
-| `dict` | Look up families and/or build a distribution summary |
-| `set` | Prevent duplicate registered family IDs and/or duplicate request IDs |
-| `tuple` | Represent a fixed value such as `(expiry_day, batch_id)` or a read-only distribution record |
+| `dict` | Family ID → family information |
+| `set` | Keep track of registered family IDs |
+| `list` | Store distribution history |
+| `tuple` | Represent one distribution record, e.g. `("F01", 3)` |
 
-Explain the reason for your choices in your submission README.
+The examples are hints, not a full solution.
 
-### 3. Business rules (implement all)
+### Task 5 — Show Report (5 marks)
 
-1. Each food batch has a unique ID, food type, quantity (number of packs), and expiry day (positive integer). A batch with zero or negative quantity is invalid.
-2. A food batch is usable on **day D only if `expiry_day >= D`**. Earlier-expiring usable batches must be consumed first. If expiry days tie, use batch ID in ascending lexicographic order.
-3. A registered family has a unique family ID, family name, and an urgency level: **HIGH**, **MEDIUM**, or **LOW**.
-4. Each request contains a unique request ID, a registered family ID, a food type, the number of packs requested, and the day the request was placed. Only requests made **on the distribution day** are processed in that day's run.
-5. A family may submit **at most one request per food type per day**. Reject a second request for the same combination, even if it has a different request ID. A request ID cannot be reused.
-6. Requests must be processed in this order: **HIGH → MEDIUM → LOW**. Within the same priority, sort by request ID (ascending lexicographic order). This order is deterministic, not dependent on insertion order.
-7. A request can be **partially fulfilled**. Give as many packs as available up to the requested amount. Never give more than requested, and never allow negative inventory.
-8. Packs of the same food type may be taken from multiple usable batches to fulfill one request.
-9. Do not substitute one food type for another. Expired stock must never be distributed.
-10. Running the distribution for the **same day a second time** must not distribute any additional packs or reduce inventory again. You may reject the repeat run with a clear error or return the saved result.
-11. After distribution, generate a report showing requested packs, allocated packs, unmet packs, remaining usable stock, expired stock, and each request's status: `FULFILLED`, `PARTIAL`, or `UNFULFILLED`.
+When the user chooses **Show Report**, print:
+- Food packs currently available.
+- Number of registered families.
+- List of registered families (ID, name, members).
+- Distribution history (family ID and packs received).
+- Total number of packs distributed.
 
-**Assumptions:** Each run distributes on one specified integer day. Food quantities are whole packs. A request is not carried automatically to another day. You do not need persistent storage, authentication, or a user interface beyond the console.
+### Task 6 — GitHub Submission (5 marks)
 
-## Part B — Provided Test Scenario
+Upload your solution to **your own GitHub repository** with at least:
+- `main.py` — runnable Python application.
+- `README.md` — your name, instructions to run, brief explanation of your classes and data structures.
 
-Use **distribution day = 5**.
+**Submit your GitHub repository URL** to your instructor using the announced submission channel.
 
-### Food batches
+---
 
-| Batch ID | Food type | Packs | Expiry day |
-| --- | --- | ---: | ---: |
-| B01 | RICE | 4 | 5 |
-| B02 | RICE | 5 | 7 |
-| B03 | RICE | 3 | 4 |
-| B04 | MILK | 4 | 6 |
-| B05 | MILK | 2 | 5 |
+## 3. Console Menu — Your Application Should Look Similar to This
 
-### Families
-
-| Family ID | Name | Urgency |
-| --- | --- | --- |
-| F01 | Rahman Family | HIGH |
-| F02 | Karim Family | MEDIUM |
-| F03 | Saha Family | HIGH |
-| F04 | Ali Family | LOW |
-
-### Requests
-
-| Request ID | Family ID | Food type | Packs | Request day |
-| --- | --- | --- | ---: | ---: |
-| R04 | F04 | RICE | 3 | 5 |
-| R02 | F02 | RICE | 5 | 5 |
-| R03 | F03 | MILK | 4 | 5 |
-| R01 | F01 | RICE | 6 | 5 |
-| R05 | F01 | MILK | 3 | 5 |
-
-**Important:** The requests above are deliberately **not listed in processing order**. Your program must calculate the order itself.
-
-### Expected allocation (for checking your work)
-
-| Processing order | Request | Allocated | Status |
-| ---: | --- | ---: | --- |
-| 1 | R01 | 6 RICE | FULFILLED |
-| 2 | R03 | 4 MILK | FULFILLED |
-| 3 | R05 | 2 MILK | PARTIAL |
-| 4 | R02 | 3 RICE | PARTIAL |
-| 5 | R04 | 0 RICE | UNFULFILLED |
-
-**Expected batch consumption:** R01 takes 4 from B01 and 2 from B02; R03 takes 2 from B05 and 2 from B04; R05 takes the remaining 2 from B04; R02 takes the remaining 3 from B02. B03 is expired on day 5 and cannot be used.
-
-**Expected totals:** requested = **21 packs**; allocated = **15 packs**; unmet = **6 packs**. Remaining usable stock after distribution = **0 packs**. Expired stock = **3 RICE packs** (B03).
-
-The exact console formatting is up to you. **The allocation numbers and statuses must match.**
-
-## Part C — Additional Cases You Must Test
-
-Demonstrate the result of each case, either through tests or clearly labeled console output:
-
-1. Register a family with an already-used family ID.
-2. Add a batch with quantity `0` or negative quantity.
-3. Submit a request for an unregistered family.
-4. Submit two requests for the same family, food type, and day (different request IDs).
-5. Submit two requests with an identical request ID.
-6. Request an unavailable food type.
-7. Run distribution again for the same day; confirm inventory is not deducted twice.
-8. Confirm a batch whose expiry day is **exactly** the distribution day is usable.
-9. Confirm a request for a different day is not processed in day 5's run.
-
-For invalid input, handle the problem safely. You may raise and catch suitable exceptions or show informative validation messages. Do not allow invalid records to corrupt the system.
-
-## Part D — Student Deliverables
-
-Submit the following to your own GitHub repository:
+When you run `python main.py`, show this menu repeatedly until the user selects Exit:
 
 ```text
-python-final-exam/
-├── main.py              # runnable demo of the scenario
-├── README.md            # explanation, assumptions, how to run
-└── tests.py             # tests OR a script demonstrating edge cases
+===== COMMUNITY FOOD BANK =====
+1. Register Family
+2. Add Food Packs
+3. Distribute Food Packs
+4. Show Report
+5. Exit
+Enter your choice:
 ```
 
-You may add extra Python files to organize your classes. The program must run using Python 3 with **no third-party dependencies**. Use only the standard library. You may use `unittest`, but it is not mandatory.
+You may change the wording or formatting, but **all five actions must work**.
 
-Your `README.md` must include:
-- Your name and student/batch identification.
-- How to run the application.
-- The main classes and why each exists.
-- How and why you used `list`, `dict`, `set`, and `tuple`.
-- An explanation of your distribution algorithm in **your own words**.
-- Your test results and at least one design trade-off.
+## 4. Complete Example — What the Student Types and Sees
 
-**Submit:** the URL of your GitHub repository (or the exact folder containing your work) through the instructor's official submission channel.
+The example below is **one continuous run**. Text after `Enter ...:` is what the volunteer types. The output messages are examples; your wording can differ.
 
-## Marking Rubric — 50 Marks
+```text
+===== COMMUNITY FOOD BANK =====
+1. Register Family
+2. Add Food Packs
+3. Distribute Food Packs
+4. Show Report
+5. Exit
+Enter your choice: 1
 
-| Area | Marks | Assessment |
-| --- | ---: | --- |
-| OOP design and encapsulation | 10 | At least 3 purposeful classes, meaningful methods, responsibilities separated, state protected |
-| Python data structures | 10 | Correct, practical usage of list, set, tuple, and dictionary |
-| Allocation logic | 15 | Priority ordering, batch expiry ordering, partial allocation, stock integrity, deterministic results, idempotent day processing |
-| Validation and edge cases | 5 | Duplicate detection, invalid input handling, day/expiry boundaries |
-| Tests and correct output | 5 | Provided test scenario matches; additional cases demonstrated |
-| Git and documentation | 5 | Runnable repository, logical commit history, clear README |
-| **Total** | **50** | |
+Enter Family ID: F01
+Enter Family Name: Rahim
+Enter Number of Members: 4
+Family registered successfully!
 
-**Evaluation note:** The example output alone is not enough for full marks. The instructor may change the batch quantities, priorities, request order, or day to verify that the **algorithm works for new data**, not just the sample.
+===== COMMUNITY FOOD BANK =====
+1. Register Family
+2. Add Food Packs
+3. Distribute Food Packs
+4. Show Report
+5. Exit
+Enter your choice: 1
 
-## Academic Integrity & Rules
+Enter Family ID: F02
+Enter Family Name: Karim
+Enter Number of Members: 3
+Family registered successfully!
 
-- Work **individually**. Do not copy another student's source code.
-- You may consult documentation and learning resources, but you must understand and be able to explain every line of the code you submit.
-- Be prepared for a short code walkthrough where the instructor changes inputs and asks you to explain your decisions.
-- A hard-coded output, a solution that only works for the provided numbers, or code that ignores the required business rules will lose significant marks.
-- There is **no requirement** to use inheritance; apply it only when it improves your design.
-- Prefer clean, readable Python over unnecessary complexity.
+===== COMMUNITY FOOD BANK =====
+1. Register Family
+2. Add Food Packs
+3. Distribute Food Packs
+4. Show Report
+5. Exit
+Enter your choice: 2
 
-**Good luck! Think like a problem solver, not just a syntax memorizer.**
+How many food packs to add? 10
+Food added successfully! Current stock: 10
+
+===== COMMUNITY FOOD BANK =====
+1. Register Family
+2. Add Food Packs
+3. Distribute Food Packs
+4. Show Report
+5. Exit
+Enter your choice: 3
+
+Enter Family ID: F01
+How many packs? 3
+Distribution successful! Remaining stock: 7
+
+===== COMMUNITY FOOD BANK =====
+1. Register Family
+2. Add Food Packs
+3. Distribute Food Packs
+4. Show Report
+5. Exit
+Enter your choice: 3
+
+Enter Family ID: F02
+How many packs? 8
+Not enough stock! Only 7 packs available.
+
+===== COMMUNITY FOOD BANK =====
+1. Register Family
+2. Add Food Packs
+3. Distribute Food Packs
+4. Show Report
+5. Exit
+Enter your choice: 3
+
+Enter Family ID: F02
+How many packs? 5
+Distribution successful! Remaining stock: 2
+
+===== COMMUNITY FOOD BANK =====
+1. Register Family
+2. Add Food Packs
+3. Distribute Food Packs
+4. Show Report
+5. Exit
+Enter your choice: 4
+
+===== FOOD BANK REPORT =====
+Available Food Packs: 2
+Total Registered Families: 2
+
+Registered Families:
+F01 - Rahim - 4 members
+F02 - Karim - 3 members
+
+Distribution History:
+F01 received 3 packs
+F02 received 5 packs
+
+Total Packs Distributed: 8
+
+===== COMMUNITY FOOD BANK =====
+1. Register Family
+2. Add Food Packs
+3. Distribute Food Packs
+4. Show Report
+5. Exit
+Enter your choice: 5
+
+Thank you! Goodbye.
+```
+
+**Check your result:** Food added = 10, food successfully distributed = 3 + 5 = 8, food remaining = **2**. The failed 8-pack request must **not** reduce stock or appear in the successful distribution history.
+
+## 5. How to Run and Test Your Program
+
+### Step A — Create the project
+
+Make a folder named `python-final-exam` and save your code as `main.py`.
+
+### Step B — Open the terminal
+
+Open Terminal on macOS/Linux or Command Prompt/PowerShell on Windows. Navigate to the folder where `main.py` is saved.
+
+### Step C — Run
+
+```bash
+python main.py
+```
+
+If your computer uses `python3`, use:
+
+```bash
+python3 main.py
+```
+
+### Step D — Follow the test checklist
+
+Run your application and enter these actions in order:
+
+| Step | Menu option | Input | Expected result |
+| --- | --- | --- | --- |
+| 1 | 1 | `F01`, `Rahim`, `4` | Family registered |
+| 2 | 1 | `F02`, `Karim`, `3` | Family registered |
+| 3 | 2 | `10` | Stock becomes 10 |
+| 4 | 3 | `F01`, `3` | Success, stock becomes 7 |
+| 5 | 3 | `F02`, `8` | Rejected, stock stays 7 |
+| 6 | 3 | `F02`, `5` | Success, stock becomes 2 |
+| 7 | 4 | No input | Report shows 2 stock, 2 families, 8 distributed |
+| 8 | 5 | No input | Program exits |
+
+### Step E — Try these extra cases yourself
+
+| Test | What you enter | What should happen |
+| --- | --- | --- |
+| Duplicate ID | Register `F01` again | Rejected |
+| Invalid members | Register `F03` with `0` members | Rejected |
+| Unknown family | Distribute to `F99` | Rejected |
+| Invalid packs | Add `-5` packs | Rejected, stock unchanged |
+| Zero request | Distribute `0` packs | Rejected |
+| Invalid menu | Type `9` as menu choice | Message shown; app continues |
+| Non-number | Type `abc` for a pack quantity | Friendly error; app should not crash |
+
+**Tip:** You may use `try/except` to handle invalid numeric input. You are not required to write an automated test framework.
+
+## 6. Marking Rubric (50 Marks)
+
+| Criteria | Marks |
+| --- | ---: |
+| Two working classes, constructors, appropriate methods | 10 |
+| Register family, duplicates, family-member validation | 10 |
+| Add food, distribute food, correct stock calculation, invalid requests | 15 |
+| Meaningful use of list, set, tuple, dict | 5 |
+| Report with correct information | 5 |
+| GitHub submission and basic README | 5 |
+| **TOTAL** | **50** |
+
+## 7. Exam Rules
+
+1. Write your own solution individually.
+2. You can read Python documentation or course notes, but you should be able to explain your code.
+3. Do **not** hardcode the example report. Your program must work when the instructor enters different values.
+4. Console input/output is enough. A GUI, API, database, Django, or extra Python library is **not** needed.
+5. Focus on a working program, simple OOP design, readable code, and correct calculations.
+
+**Good luck — solve the problem one step at a time!**
